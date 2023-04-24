@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tta.todoapplication.fragment.homefragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.tta.todoapplication.fragment.calenderfragment.CalenderFragment"
+        android:label="CalenderFragment"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/focusFragment"
+        android:name="com.tta.todoapplication.fragment.focusfragment.FocusFragment"
+        android:label="FocusFragment"
+        tools:layout="@layout/fragment_focus" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.tta.todoapplication.fragment.profilefragment.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
