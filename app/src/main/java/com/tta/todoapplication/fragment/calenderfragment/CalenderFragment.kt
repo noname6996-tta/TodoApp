@@ -24,5 +24,9 @@ class CalenderFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        // test crash app
+        binding.calender.setOnClickListener {
+            throw RuntimeException("Test Crash") // Force a crash
+        }
     }
 }
