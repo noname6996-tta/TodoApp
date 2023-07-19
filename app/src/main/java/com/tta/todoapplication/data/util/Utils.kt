@@ -1,4 +1,4 @@
-package com.tta.todoapplication.utils
+package com.tta.todoapplication.data.util
 
 import android.app.Activity
 import android.content.Context

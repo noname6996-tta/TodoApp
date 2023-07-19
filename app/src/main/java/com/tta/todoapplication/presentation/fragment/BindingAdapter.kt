@@ -1,4 +1,4 @@
-package com.tta.todoapplication.fragment
+package com.tta.todoapplication.presentation.fragment
 
 import androidx.databinding.BindingAdapter
 import com.google.android.material.bottomsheet.BottomSheetDialog

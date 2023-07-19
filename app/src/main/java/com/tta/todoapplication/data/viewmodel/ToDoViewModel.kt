@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.tta.todoapplication.data.ToDoDatabase
-import com.tta.todoapplication.data.models.ToDoData
+import com.tta.todoapplication.data.db.ToDoDatabase
+import com.tta.todoapplication.data.model.ToDoData
 import com.tta.todoapplication.data.repository.ToDoRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

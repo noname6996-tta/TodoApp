@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.tta.todoapplication.fragment.homefragment.HomeFragment"
+        android:name="com.tta.todoapplication.presentation.fragment.homefragment.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/calenderFragment"
-        android:name="com.tta.todoapplication.fragment.calenderfragment.CalenderFragment"
+        android:name="com.tta.todoapplication.presentation.fragment.calenderfragment.CalenderFragment"
         android:label="CalenderFragment"
         tools:layout="@layout/fragment_calender" />
     <fragment
         android:id="@+id/focusFragment"
-        android:name="com.tta.todoapplication.fragment.focusfragment.FocusFragment"
+        android:name="com.tta.todoapplication.presentation.fragment.focusfragment.FocusFragment"
         android:label="FocusFragment"
         tools:layout="@layout/fragment_focus" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.tta.todoapplication.fragment.profilefragment.ProfileFragment"
+        android:name="com.tta.todoapplication.presentation.fragment.profilefragment.ProfileFragment"
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile" />
 </navigation>

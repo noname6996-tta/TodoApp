@@ -1,4 +1,4 @@
-package com.tta.todoapplication.fragment.homefragment
+package com.tta.todoapplication.presentation.fragment.homefragment
 
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.tta.todoapplication.data.viewmodel.ToDoViewModel
 import com.tta.todoapplication.databinding.FragmentHomeBinding
-import com.tta.todoapplication.fragment.adapter.ItemTaskAdapter
+import com.tta.todoapplication.presentation.fragment.adapter.ItemTaskAdapter
 
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null

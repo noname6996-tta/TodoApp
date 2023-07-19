@@ -1,8 +1,8 @@
 package com.tta.todoapplication.data.repository
 
 import androidx.lifecycle.LiveData
-import com.tta.todoapplication.data.ToDoDao
-import com.tta.todoapplication.data.models.ToDoData
+import com.tta.todoapplication.data.db.ToDoDao
+import com.tta.todoapplication.data.model.ToDoData
 
 class ToDoRepository(private val toDoDao: ToDoDao) {
 

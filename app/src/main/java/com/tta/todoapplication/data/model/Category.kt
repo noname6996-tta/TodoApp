@@ -1,4 +1,4 @@
-package com.tta.todoapplication.data.models
+package com.tta.todoapplication.data.model
 
 import android.os.Parcelable
 import androidx.room.PrimaryKey

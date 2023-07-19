@@ -1,4 +1,4 @@
-package com.tta.todoapplication
+package com.tta.todoapplication.presentation
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -14,8 +14,6 @@ import android.widget.ImageView
 import android.widget.TimePicker
 import android.widget.Toast
 import androidx.activity.viewModels
-import androidx.databinding.BindingAdapter
-import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
@@ -23,14 +21,12 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationBarView
-import com.tta.todoapplication.data.models.Category
-import com.tta.todoapplication.data.models.Priority
-import com.tta.todoapplication.data.models.ToDoData
+import com.tta.todoapplication.R
+import com.tta.todoapplication.data.model.ToDoData
 import com.tta.todoapplication.data.viewmodel.ToDoViewModel
 import com.tta.todoapplication.databinding.ActivityMainBinding
-import com.tta.todoapplication.fragment.SharedViewModel
+import com.tta.todoapplication.presentation.fragment.SharedViewModel
 import java.util.*
 
 class MainActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener,

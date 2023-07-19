@@ -6,7 +6,7 @@
     <data>
         <variable
             name="handler"
-            type="com.tta.todoapplication.MainActivity" />
+            type="com.tta.todoapplication.presentation.MainActivity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -32,7 +32,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:context=".MainActivity">
+            tools:context=".presentation.MainActivity">
 
             <com.google.android.material.bottomappbar.BottomAppBar
                 android:id="@+id/bottomAppBar"

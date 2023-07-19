@@ -1,11 +1,10 @@
-package com.tta.todoapplication.data
+package com.tta.todoapplication.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
-import com.tta.todoapplication.data.models.ToDoData
+import com.tta.todoapplication.data.model.ToDoData
 
 @Database(entities = [ToDoData::class], version = 1, exportSchema = false)
 abstract class ToDoDatabase : RoomDatabase() {

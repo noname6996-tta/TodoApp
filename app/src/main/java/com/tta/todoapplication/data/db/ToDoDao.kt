@@ -1,8 +1,8 @@
-package com.tta.todoapplication.data
+package com.tta.todoapplication.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.tta.todoapplication.data.models.ToDoData
+import com.tta.todoapplication.data.model.ToDoData
 
 @Dao
 interface ToDoDao {
