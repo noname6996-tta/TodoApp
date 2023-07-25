@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "511440508955",
+    "project_id": "task-with-suzzy",
+    "storage_bucket": "task-with-suzzy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511440508955:android:92a5111676b13af885c0be",
+        "android_client_info": {
+          "package_name": "com.tta.todoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511440508955-c918jagkhs80r3nskac43nndvfklaahi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2YuQcgoavhBNGTmvFTwn7HxuMglt8mnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511440508955-c918jagkhs80r3nskac43nndvfklaahi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
